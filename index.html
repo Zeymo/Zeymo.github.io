@@ -59,16 +59,15 @@
     <h3 class="lh-title mbn mtm">mogujie.com@Meili-inc Wireless Platform</h3>
     <p class="mvn lh-copy"><strong>Java/Go Software Engineer</strong> - April 2016 to present.</p>
     <ul class="mvs lh-copy">
-        <li>负责整个无线网关的架构/设计/开发,包括接入层,路由层,聚合层,状态服务器,内部RPC协议等</li>
+        <li>负责整个无线网关生态的架构/设计/开发</li>
         <li>基于Caddy内核设计实现插件化容器,并同时支持HTTP/2,websocket以及QUIC协议,在公司内部已经输出内核替换ATS,性能提升1.5X,后续替换nginx</li>
-        <li>基于go HTTP/2 frame设计实现接入层RPC协议，包括不限于flowControl,bdp</li>
+        <li>基于go HTTP/2 frame设计实现接入层RPC协议</li>
         <li>基于go websocket库设计实现多路复用的stream-websocket</li>
-        <li>基于TLS 1.3 draft实现0-RTT的mls协议</li>
-        <li>产于设计/开发聚合层</li>
-        <li>设计实现在线/离线下行通道,包括不限于stream-push,基于轮询的agent框架</li>
-        <li>实现内部中间件go-client,包括不限于配置中心,服务发现,全链路跟踪等</li>
-        <li>熟练使用pprof,trace,fmt特性,深刻理解GC-Free优化</li>
-        <li>设计并制定go开发运维规范,包括不限于标准工程结构,依赖管理,包活策略,打点标准</li>
+        <li>基于TLS 1.3 draft实现0-RTT的轻量级TLS协议</li>
+        <li>负责设计/实现在线/离线下行通道,包括stream-push,基于轮询的agent框架</li>
+        <li>实现内部中间件go-client,配置中心,服务发现,全链路跟踪等</li>
+        <li>熟练使用pprof,trace,fmt特性,GC优化策略</li>
+        <li>设计并制定公司go开发运维规范,标准工程结构,依赖管理,包活策略,打点标准等</li>
         <li>网关整体相比HTTPs,建连成功率提升40%+,响应时间提升1x,请求成功率提升10%+</li>
         <li>接入层相比nginx,性能提升35%+,开发效率提升10x</li>
     </ul>
